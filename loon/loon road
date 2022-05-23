@@ -1,0 +1,68 @@
+#default config
+#Date: 2022.04.23
+#Author: Loon
+
+[General]
+ipv6 = false
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,passenger.t3go.cn,passenger.t3go.cn
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+real-ip = *.iCloud.com,*.apple.com,msftconnecttest.com, msftncsi.com, *.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net,*.10086.cn
+dns-server = system,223.5.5.5,119.29.29.29
+#doh-server = https://162.14.132.76/dns-query
+allow-wifi-access = false
+wifi-access-http-port = 7222
+wifi-access-socket5-port = 7221
+proxy-test-url = http://www.gstatic.com/generate_204
+test-timeout = 3
+interface-mode = auto
+switch-node-after-failure-times = 1
+resource-parser = https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/sub-store-parser.js
+[Host]
+*.taobao.com = server:223.5.5.5
+*.tmall.com = server:223.5.5.5
+*.jd.com = server:119.28.28.28
+*.qq.com = server:119.28.28.28
+*.tencent.com = server:119.28.28.28
+*.alicdn.com = server:223.5.5.5
+*.aliyun.com = server:223.5.5.5
+*.weixin.com = server:119.28.28.28
+*.163.com = server:119.29.29.29
+*.126.com = server:119.29.29.29
+*.126.net = server:119.29.29.29
+*.127.net = server:119.29.29.29
+*.netease.com = server:119.29.29.29
+*.mi.com = server:119.29.29.29
+*.xiaomi.com = server:119.29.29.29
+*.bilibili.com = server:119.29.29.29
+*testflight.apple.com = server:8.8.4.4
+mtalk.google.com = 108.177.125.188
+dl.google.com = server:119.29.29.29
+dl.l.google.com = server:119.29.29.29
+[Proxy]
+[Remote Proxy]
+[Proxy Group]
+No AD = select,DIRECT
+[Remote Filter]
+[Rule]
+FINAL,DIRECT
+[Remote Rule]
+https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Loon/Privacy/Privacy_Domain.list, policy=REJECT, tag=adg, enabled=true
+https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Loon/Privacy/Privacy.list, policy=REJECT, tag=adf, enabled=true
+https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Loon/Hijacking/Hijacking.list, policy=REJECT, tag=ade, enabled=true
+https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising_Domain.list, policy=REJECT, tag=ads, enabled=true
+https://raw.fastgit.org/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list, policy=REJECT, tag=ad, enabled=true
+[Rewrite]
+enable = false
+[Remote Rewrite]
+https://raw.fastgit.org/blackmatrix7/ios_rule_script/release/rewrite/Loon/Advertising/Advertising.plugin, tag=稳定版, enabled=true
+[Script]
+http-response ^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation script-path=https://raw.fastgit.org/NobyDa/Script/master/Surge/JS/Polarr.js, requires-body=true, binary-body-mode=true, timeout=10, enabled=false, tag=pola
+enable = false
+[Remote Script]
+[Plugin]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bilibili.plugin, tag=1b658cf0b43ee41cc87495eb800013e9, enabled=false
+[Mitm]
+hostname = api.polaxiong.com
+ca-p12 = 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
+ca-passphrase = 783820LK
+skip-server-cert-verify = false
