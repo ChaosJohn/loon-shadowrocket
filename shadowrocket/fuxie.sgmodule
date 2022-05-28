@@ -1,10 +1,6 @@
 #!name=复写去广告
 #!desc=2022-5.28
 
-
-#!name=复写去广告
-#!desc=2022-5.28
-
 [General]
 force-http-engine-hosts = %APPEND% intl.iqiyi.com, maicai.api.ddxq.mobi, mobileapi-v6.elong.com, wmapi.meituan.com, weibointl.api.weibo.cn, *.ott.cibntv.net
 
