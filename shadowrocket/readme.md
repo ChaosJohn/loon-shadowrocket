@@ -1,3 +1,4 @@
-- 小火箭规则单独去广告，无分流规则，2022-5-20
+- 小火箭规则单独去广告，无分流规则，
+##https://raw.fastgit.org/Keywos/loon-shadowrocket/main/shadowrocket/shadowrocket%20noad.conf
 - 使用fastgit.org微软代理规则，不用节点不会出现下载失败;
-- fuxie.sgmodule是复写去开屏广告，放在[配置]-[模块] 里
+- fuxie.sgmodule是复写去开屏广告，放在[配置]-[模块] 里订阅地址https://raw.fastgit.org/Keywos/loon-shadowrocket/main/shadowrocket/fuxie.sgmodule
