@@ -1,3 +1,4 @@
+#复制网址即可
 - 小火箭规则单独去广告，无分流规则
 https://raw.githubusercontent.com/Keywos/loon-shadowrocket/main/shadowrocket/shadowrocket%20noad.conf
 https://raw.staticdn.net/Keywos/loon-shadowrocket/main/shadowrocket/shadowrocket%20noad.conf
