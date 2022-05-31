@@ -7,4 +7,4 @@ https://raw.staticdn.net/Keywos/loon-shadowrocket/main/shadowrocket/shadowrocket
 https://raw.githubusercontent.com/Keywos/loon-shadowrocket/main/shadowrocket/fuxie.sgmodule
 https://raw.staticdn.net/Keywos/loon-shadowrocket/main/shadowrocket/fuxie.sgmodule
 ## geoip-cn
-https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
+- https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
