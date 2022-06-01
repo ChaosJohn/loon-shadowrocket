@@ -5,5 +5,4 @@
 - 二选一
 - https://raw.githubusercontent.com/Keywos/loon-shadowrocket/main/loon/loon%20noad.conf
 
-- https://gitclone.com/gogs/Keywos/loon-shadowrocket/main/loon/loon%20noad.conf
-
+- https://gitclone.com/gogs/Keywos/loon-shadowrocket/raw/main/loon/loon%20noad.conf
