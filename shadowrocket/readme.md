@@ -1,5 +1,7 @@
+
+# 单独去广告，无分流规则
 ## 复制网址即可
-### 小火箭规则单独去广告，无分流规则
+ shadowrocket noad.conf
 - https://raw.githubusercontent.com/Keywos/loon-shadowrocket/main/shadowrocket/shadowrocket%20noad.conf
 
 - https://gitclone.com/gogs/Keywos/loon-shadowrocket/raw/main/shadowrocket/shadowrocket%20noad.conf
@@ -8,5 +10,11 @@
 - https://raw.githubusercontent.com/Keywos/loon-shadowrocket/main/shadowrocket/fuxie.sgmodule
 
 - https://gitclone.com/gogs/Keywos/loon-shadowrocket/raw/main/shadowrocket/fuxie.sgmodule
+# 分流和去广告规则
+ Shadowrock-fenliu-noad.conf
+- https://raw.githubusercontent.com/Keywos/loon-shadowrocket/main/shadowrocket/Shadowrock-fenliu-noad.conf
+
+- https://gitclone.com/gogs/Keywos/loon-shadowrocket/raw/main/shadowrocket/Shadowrock-fenliu-noad.conf
 ## geoip-cn
 - https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
+
