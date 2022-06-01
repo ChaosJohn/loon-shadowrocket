@@ -12,9 +12,9 @@
 - https://gitclone.com/gogs/Keywos/loon-shadowrocket/raw/main/shadowrocket/fuxie.sgmodule
 # 分流和去广告规则
  Shadowrock-fenliu-noad.conf
-- https://raw.githubusercontent.com/Keywos/loon-shadowrocket/main/shadowrocket/Shadowrock-fenliu-noad.conf
+- https://raw.githubusercontent.com/Keywos/loon-shadowrocket/main/shadowrocket/Shadowrocket-fenliu-noad.conf
 
-- https://gitclone.com/gogs/Keywos/loon-shadowrocket/raw/main/shadowrocket/Shadowrock-fenliu-noad.conf
+- https://gitclone.com/gogs/Keywos/loon-shadowrocket/raw/main/shadowrocket/Shadowrocket-fenliu-noad.conf
 ## geoip-cn
 - https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
 
