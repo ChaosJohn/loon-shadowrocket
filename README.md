@@ -4,6 +4,6 @@
 - 里面有分流配置，分为国内直连，国外代理，
 - 单独去广告配置，其他全部直连
 ### 关于raw文件访问慢的问题
-- fastgit.org代理服务器2022-5-31连接不上弃用
-- staticdn.net更换为此代理服务器
-- gitclone.com/gogs为镜像网站，克隆次项目2022-6-1
+- fastgit.org代理服务器2022-5-31连接不上，弃用
+- staticdn.net更换为此代理服务器，弃用
+- 使用国内镜像克隆github，gitclone.com/gogs访问速度起飞
