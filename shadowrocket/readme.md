@@ -17,5 +17,4 @@
 - https://gitclone.com/gogs/Keywos/loon-shadowrocket/raw/main/shadowrocket/Shadowrocket%20fenliu%20noad.conf
 
 ## geoip-cn
-- https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
-
+- https://raw.staticdn.net/Hackl0us/GeoIP2-CN/release/Country.mmdb
